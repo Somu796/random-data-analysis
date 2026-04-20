@@ -1,3 +1,3 @@
 # API reference
 
-::: data_analytics.column_statistics
+::: random-data-analysis.column_statistics

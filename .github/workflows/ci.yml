@@ -64,8 +64,8 @@ jobs:
         run: uv pip install bandit
       - name: pip audit (installed environment)
         run: uv run pip-audit --skip-editable
-      - name: bandit (src/data_analytics)
-        run: uv run bandit -r src/data_analytics -f txt
+      - name: bandit (src/random_data_analysis)
+        run: uv run bandit -r src/random_data_analysis -f txt
 
   publish:
     needs: [pre-commit, test, security]
