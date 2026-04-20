@@ -1,9 +1,9 @@
-"""Tests for data_analytics.column_statistics."""
+"""Tests for data_analytics_random.column_statistics."""
 
 import pandas as pd
 import pytest
 
-from data_analytics.column_statistics import (
+from data_analytics_random.column_statistics import (
     calculate_column_statistics,
     calculate_max_of_column,
     calculate_min_of_column,
