@@ -108,3 +108,6 @@ def calculate_span_of_column(df: pd.DataFrame, column: str) -> float:
         Span of the column.
     """
     return df[column].max() - df[column].min()
+
+
+# Should work
